@@ -1,0 +1,13 @@
+{
+  "name": "smp-desktop",
+  "version": "0.0.1",
+  "description": "Wrapper to enable the use of SMP on desktops.",
+  "author": "Brad Zacher",
+  "license": "ISC",
+  "dependencies": {
+    "electron-prebuilt-compile": "^1.3.10",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}

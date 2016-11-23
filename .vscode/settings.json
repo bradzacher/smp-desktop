@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Controls visibility of line numbers
+    "editor.lineNumbers": "on",
+
+    // The number of spaces a tab is equal to.
+    "editor.tabSize": 4,
+
+    // Insert spaces when pressing Tab.
+    "editor.insertSpaces": true,
+
+    // Remove trailing auto inserted whitespace
+    "editor.trimAutoWhitespace": true,
+
+    // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+    "editor.detectIndentation": false,
+
+    // When enabled, will trim trailing whitespace when you save a file.
+    "files.trimTrailingWhitespace": true,
+
+    "beautify.HTMLfiles": ["htm", "html", "xhtml", "shtml", "xml", "svg"],
+    "beautify.JSfiles": ["ts", "tsx", "js", "jsx", "json", "eslintrc", "jsbeautifyrc"],
+    "beautify.CSSfiles": ["css", "scss", "sass", "less"],
+
+    "typescript.tsdk": "./node_modules/typescript/lib"
+}

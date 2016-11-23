@@ -1,0 +1,77 @@
+{
+    "globals": {
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [],
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "spaced-comment": [
+            "warn",
+            "always",
+            {
+                "exceptions": [
+                    "*"
+                ]
+            }
+        ],
+        "max-len": [
+            "warn",
+            200
+        ],
+        "no-multi-spaces": [
+            "warn",
+            {
+                "exceptions": {
+                    "VariableDeclarator": true
+                }
+            }
+        ],
+        "no-unused-expressions": [
+            "error",
+            {
+                "allowShortCircuit": true
+            }
+        ],
+        "strict": [
+            "off"
+        ],
+        "no-param-reassign": [
+            "warn",
+            {
+                "props": false
+            }
+        ]
+    }
+}
