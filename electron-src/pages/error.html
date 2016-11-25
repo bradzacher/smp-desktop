@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+    <div>
+        <h1>An Error Occured During Launch:</h1>
+        <h2 id="message"></h2>
+    </div>
+
+    <script type="text/javascript">
+        // extract the error message from the url
+        const a = document.createElement('a');
+        a.href = window.location.href;
+        const queryString = a.search;
+        const message = /message=(.*)/.exec(queryString)[1];
+        document.getElementById('message').innerHTML = decodeURI(message);
+    </script>
+</body>
+</html>

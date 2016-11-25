@@ -1,0 +1,7 @@
+{
+    "env": "dev",
+    "gatewayDirect": false,
+    "targetServer": "smpdev101.external.etsa.com.au",
+    "targetPath": "/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html",
+    "appId": "com.sap.fiori"
+}
